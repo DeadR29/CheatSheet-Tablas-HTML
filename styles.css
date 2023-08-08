@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    background-color: #778899;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+}
+
+table {
+    background:  #323232;
+    color: rgb(41, 37, 37);
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    width: 650px;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 1rem;
+    background: #A9A9A9; 
+}
+
+th {
+    background-color: gray;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+.code {
+    color: black;
+    font-weight: lighter;
+    background-color: beige;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+}
+
+td {
+    font-size: small;
+    border-top: 1px solid black;
+}
+
+h5 {
+    text-align: right;
+}
